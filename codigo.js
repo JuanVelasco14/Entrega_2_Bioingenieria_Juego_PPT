@@ -11,7 +11,7 @@ function eleccion (jugada){
     }else if (jugada == 3){
         resultado = "Tijera ✂"
     }else {
-        resultado = "Haz elegido mal el Numero"
+        resultado = "Haz elegido mal el Numero, vuelve a elegirlo"
     }
     return resultado
 }    
